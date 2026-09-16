@@ -1,6 +1,7 @@
-import { GitHub, LinkedIn, Logo, Twitter, YouTube } from '@/assets/svgs';
-import type { SocialIcon, SocialIconName } from './types';
 import { socialLinks } from './footerData';
+import type { SocialIcon, SocialIconName } from './types';
+
+import { GitHub, LinkedIn, Logo, Twitter, YouTube } from '@/assets/svgs';
 
 const socialIcons: Record<SocialIconName, SocialIcon> = {
   twitter: Twitter,
