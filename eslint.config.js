@@ -9,14 +9,7 @@ import unusedImports from 'eslint-plugin-unused-imports';
 import globals from 'globals';
 export default defineConfig(
   {
-    ignores: [
-      'dist',
-      'build',
-      'coverage',
-      'node_modules',
-      'public',
-      'storybook-static',
-    ],
+    ignores: ['dist', 'build', 'coverage', 'node_modules', 'public', 'storybook-static'],
   },
   [
     {
@@ -101,14 +94,7 @@ export default defineConfig(
         'import/order': [
           'error',
           {
-            groups: [
-              'builtin',
-              'external',
-              'internal',
-              'parent',
-              'sibling',
-              'index',
-            ],
+            groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
 
             pathGroups: [
               {
@@ -137,5 +123,5 @@ export default defineConfig(
       },
     },
   ],
-  prettierConfig
+  prettierConfig,
 );
