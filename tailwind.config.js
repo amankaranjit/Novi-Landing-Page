@@ -26,7 +26,7 @@ export default {
           primary: '#ffffff',
           secondary: '#f8fafc',
           card: '#ffffff',
-          footer: '#091329',
+          footer: '#141B2E',
         },
 
         border: {

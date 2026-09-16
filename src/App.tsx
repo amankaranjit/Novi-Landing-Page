@@ -1,12 +1,10 @@
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-slate-950">
-      <h1 className="text-5xl font-bold text-white">
-        Tailwind is working 🚀 Testing the pipeline that is configured to deploy main branch on
-        vercel
-      </h1>
+    <div className="min-h-screen">
+      <Footer />
     </div>
   );
 }
