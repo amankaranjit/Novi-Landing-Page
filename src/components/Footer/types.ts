@@ -18,3 +18,7 @@ export interface SocialLink {
   icon: SocialIconName;
 }
 export type SocialIcon = ComponentType<SVGProps<SVGSVGElement>>;
+
+export type FormProps = {
+  onSubscribe?: (_email: string) => void | Promise<void>;
+};
