@@ -1,5 +1,5 @@
 import { footerNavigationClassName } from './constant';
-import { footerColumns } from './footerData';
+import { footerColumns } from './constant';
 
 export const FooterNavigation = () => {
   return (

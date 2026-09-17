@@ -1,5 +1,5 @@
 import { footerBottomClassName } from './constant';
-import { legalLinks } from './footerData';
+import { legalLinks } from './constant';
 
 export const FooterBottom = () => {
   return (

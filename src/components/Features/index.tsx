@@ -1,6 +1,6 @@
 import { wrapperClassName } from './constant';
+import { features } from './constant';
 import FeatureCard from './FeatureCard';
-import { features } from './featureData';
 
 const Features = () => {
   return (

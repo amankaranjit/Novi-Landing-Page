@@ -75,6 +75,28 @@ export default {
 
         'gradient-footer': 'linear-gradient(135deg, #091329 0%, #172554 50%, #312e81 100%)',
       },
+
+      // --- added for the animated Hero section ---
+      keyframes: {
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-14px)' },
+        },
+        'fade-in-up': {
+          '0%': { opacity: '0', transform: 'translateY(16px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        blob: {
+          '0%, 100%': { transform: 'translate(0px, 0px) scale(1)' },
+          '33%': { transform: 'translate(16px, -24px) scale(1.06)' },
+          '66%': { transform: 'translate(-12px, 14px) scale(0.94)' },
+        },
+      },
+      animation: {
+        float: 'float 6s ease-in-out infinite',
+        'fade-in-up': 'fade-in-up 0.7s ease-out forwards',
+        blob: 'blob 9s ease-in-out infinite',
+      },
     },
   },
   plugins: [],

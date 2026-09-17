@@ -1,5 +1,5 @@
 import { footerBrandClassName } from './constant';
-import { socialLinks } from './footerData';
+import { socialLinks } from './constant';
 import type { SocialIcon, SocialIconName } from './types';
 
 import { GitHub, LinkedIn, Logo, Twitter, YouTube } from '@/assets/svgs';
