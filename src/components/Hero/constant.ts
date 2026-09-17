@@ -22,9 +22,9 @@ export const heroContentClassName = {
   description: 'mt-6 text-lg leading-relaxed text-slate-500',
   actions: 'mt-8 flex flex-wrap items-center gap-4',
   primaryButton:
-    'rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-3 text-sm font-semibold text-white',
+    'cursor-pointer rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-indigo-500/25',
   secondaryButton:
-    'rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200',
+    'cursor-pointer rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-slate-300',
   playButton: 'mr-2 rounded-full bg-indigo-600 px-2 py-1 text-xs text-white',
 };
 export const floatingCardClassName = {
@@ -79,7 +79,7 @@ export const floatingCards: FloatingCardData[] = [
     kind: 'activity',
     title: 'Updated the docs',
     subtitle: 'Alex R.',
-    position: 'bottom-16 -left-6 sm:-left-10',
+    position: 'bottom-12 -left-8 hidden lg:block',
     delay: '0.8s',
   },
   {
