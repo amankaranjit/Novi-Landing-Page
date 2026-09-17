@@ -1,3 +1,4 @@
+import { footerBrandClassName } from './constant';
 import { socialLinks } from './footerData';
 import type { SocialIcon, SocialIconName } from './types';
 
@@ -12,31 +13,34 @@ const socialIcons: Record<SocialIconName, SocialIcon> = {
 
 export const FooterBrand = () => {
   return (
-    <div className="lg:col-span-3">
-      <a href="/" className="flex items-center gap-2">
+    <div className={footerBrandClassName?.container}>
+      <a href="/" className={footerBrandClassName?.logoLink}>
         <Logo />
-        <span className="text-xl font-bold text-white">Novi</span>
+        <span className={footerBrandClassName?.logoText}>Novi</span>
       </a>
 
-      <p className="mt-4 text-sm">Better teamwork. Less chaos.</p>
+      <p className={footerBrandClassName?.description}>Better teamwork. Less chaos.</p>
 
-      <div className="mt-6 flex items-center gap-5">
-        {socialLinks.map(({ icon, href, label }) => {
-          const Icon = socialIcons[icon];
+      <div className={footerBrandClassName?.socialLinks}>
+        {socialLinks?.length &&
+          socialLinks?.map(({ icon, href, label }) => {
+            const Icon = socialIcons?.[icon];
 
-          return (
-            <a
-              key={icon}
-              href={href}
-              target="_blank"
-              rel="noreferrer"
-              aria-label={label}
-              className="flex h-5 w-5 items-center justify-center hover:text-white"
-            >
-              <Icon className="h-5 w-5" />
-            </a>
-          );
-        })}
+            if (!Icon) return null;
+
+            return (
+              <a
+                key={icon || ''}
+                href={href || ''}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={label || 'Social Link'}
+                className={footerBrandClassName?.socialLink}
+              >
+                <Icon className={footerBrandClassName?.socialIcon} />
+              </a>
+            );
+          })}
       </div>
     </div>
   );

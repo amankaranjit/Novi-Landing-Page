@@ -10,3 +10,8 @@ export interface Feature {
 export interface FeatureCardProps {
   feature: Feature;
 }
+
+export interface FeatureIconProps {
+  name: FeatureIconName;
+  className?: string;
+}
