@@ -1,4 +1,4 @@
-export type FloatingCardKind = "notification" | "activity" | "comment" | "team";
+export type FloatingCardKind = 'notification' | 'activity' | 'comment' | 'team';
 
 export interface FloatingCardData {
   id: string;
