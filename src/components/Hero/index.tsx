@@ -1,6 +1,6 @@
-import { heroClassName } from "./constant";
-import HeroContent from "./HeroContent";
-import HeroVisual from "./HeroVisual";
+import { heroClassName } from './constant';
+import HeroContent from './HeroContent';
+import HeroVisual from './HeroVisual';
 
 const Hero = () => {
   return (
