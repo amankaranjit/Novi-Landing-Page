@@ -8,31 +8,31 @@ export const heroClassName = {
 
 export const heroVisualClassName = {
   container: 'relative mx-auto w-full max-w-lg lg:mx-0',
-  blobTop: 'absolute -top-16 -right-10 h-72 w-72 rounded-full bg-indigo-200/60 blur-3xl',
-  blobBottom: 'absolute -bottom-16 -left-10 h-72 w-72 rounded-full bg-violet-200/50 blur-3xl',
+  blobTop: 'absolute -top-16 -right-10 h-72 w-72 rounded-full bg-primary-100/60 blur-3xl',
+  blobBottom: 'absolute -bottom-16 -left-10 h-72 w-72 rounded-full bg-accent-pink/20 blur-3xl',
   mockup: 'relative z-10',
 };
 
 export const heroContentClassName = {
   container: 'max-w-xl',
   badge:
-    'inline-flex items-center rounded-full bg-indigo-50 px-4 py-1.5 text-sm font-medium text-indigo-600 ring-1 ring-inset ring-indigo-100',
-  heading: 'mt-6 text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl',
-  highlight: 'bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-transparent',
-  description: 'mt-6 text-lg leading-relaxed text-slate-500',
+    'inline-flex items-center rounded-full bg-primary-50 px-4 py-1.5 text-sm font-medium text-primary-600 ring-1 ring-inset ring-primary-100',
+  heading: 'mt-6 text-4xl font-bold tracking-tight text-text-primary sm:text-5xl lg:text-6xl',
+  highlight: 'bg-gradient-primary bg-clip-text text-transparent',
+  description: 'mt-6 text-lg leading-relaxed text-text-secondary',
   actions: 'mt-8 flex flex-wrap items-center gap-4',
   primaryButton:
-    'cursor-pointer rounded-full bg-gradient-to-r from-indigo-600 to-violet-600 px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-indigo-500/25',
+    'cursor-pointer rounded-full bg-gradient-primary px-6 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:shadow-primary-600/25',
   secondaryButton:
-    'cursor-pointer rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-slate-300',
-  playButton: 'mr-2 rounded-full bg-indigo-600 px-2 py-1 text-xs text-white',
+    'cursor-pointer rounded-full bg-white px-6 py-3 text-sm font-semibold text-text-primary ring-1 ring-slate-200 transition-all duration-300 hover:-translate-y-1 hover:shadow-lg hover:ring-slate-300',
+  playButton: 'mr-2 rounded-full bg-primary-600 px-2 py-1 text-xs text-white',
 };
 export const floatingCardClassName = {
   card: 'absolute z-20 w-52 animate-float rounded-2xl bg-white p-3 shadow-xl shadow-slate-900/10 ring-1 ring-slate-100',
   content: 'flex items-center gap-3',
   icon: 'flex h-8 w-8 items-center justify-center rounded-full',
   activityIcon: 'bg-blue-100 text-blue-600',
-  commentIcon: 'bg-violet-100 text-violet-600',
+  commentIcon: 'bg-primary-100 text-primary-600',
   teamIcon: 'bg-emerald-100 text-emerald-600',
   svg: 'h-4 w-4',
   text: 'min-w-0',
