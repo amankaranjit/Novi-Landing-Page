@@ -50,36 +50,36 @@ export const footerColumns: FooterColumn[] = [
   {
     title: 'Product',
     links: [
-      { label: 'Features', href: '/features' },
-      { label: 'Pricing', href: '/pricing' },
-      { label: 'Integrations', href: '/integrations' },
-      { label: 'Changelog', href: '/changelog' },
+      { label: 'Features', href: '#' },
+      { label: 'Pricing', href: '#' },
+      { label: 'Integrations', href: '#' },
+      { label: 'Changelog', href: '#' },
     ],
   },
   {
     title: 'Company',
     links: [
-      { label: 'About us', href: '/about' },
-      { label: 'Careers', href: '/careers' },
-      { label: 'Blog', href: '/blog' },
-      { label: 'Contact', href: '/contact' },
+      { label: 'About us', href: '#' },
+      { label: 'Careers', href: '#' },
+      { label: 'Blog', href: '#' },
+      { label: 'Contact', href: '#' },
     ],
   },
   {
     title: 'Resources',
     links: [
-      { label: 'Docs', href: '/docs' },
-      { label: 'Help Center', href: '/help' },
-      { label: 'Community', href: '/community' },
-      { label: 'Guides', href: '/guides' },
+      { label: 'Docs', href: '#' },
+      { label: 'Help Center', href: '#' },
+      { label: 'Community', href: '#' },
+      { label: 'Guides', href: '#' },
     ],
   },
   {
     title: 'Legal',
     links: [
-      { label: 'Privacy', href: '/privacy' },
-      { label: 'Terms', href: '/terms' },
-      { label: 'Cookies', href: '/cookies' },
+      { label: 'Privacy', href: '#' },
+      { label: 'Terms', href: '#' },
+      { label: 'Cookies', href: '#' },
     ],
   },
 ];
@@ -108,6 +108,6 @@ export const socialLinks: SocialLink[] = [
 ];
 
 export const legalLinks: FooterLink[] = [
-  { label: 'Privacy', href: '/privacy' },
-  { label: 'Terms', href: '/terms' },
+  { label: 'Privacy', href: '#' },
+  { label: 'Terms', href: '#' },
 ];

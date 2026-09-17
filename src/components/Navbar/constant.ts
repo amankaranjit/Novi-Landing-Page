@@ -4,10 +4,10 @@ export interface NavLink {
 }
 
 export const navLinks: NavLink[] = [
-  { label: 'Product', href: '/product' },
-  { label: 'Solutions', href: '/solutions' },
-  { label: 'Pricing', href: '/pricing' },
-  { label: 'About', href: '/about' },
+  { label: 'Product', href: '#' },
+  { label: 'Solutions', href: '#' },
+  { label: 'Pricing', href: '#' },
+  { label: 'About', href: '#' },
 ];
 
 export const navLinkClassName = {
