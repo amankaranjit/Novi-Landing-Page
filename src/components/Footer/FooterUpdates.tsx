@@ -1,11 +1,12 @@
+import { footerUpdatesClassName } from './constant';
 import FooterForm from './FooterForm';
 
 export const FooterUpdates = () => {
   return (
-    <div className="lg:col-span-3">
-      <h2 className="font-semibold text-white">Get the latest updates</h2>
+    <div className={footerUpdatesClassName?.container}>
+      <h2 className={footerUpdatesClassName?.title}>Get the latest updates</h2>
 
-      <p className="mt-3 mb-5 text-sm leading-relaxed">
+      <p className={footerUpdatesClassName?.description}>
         Be the first to know about new features and product updates.
       </p>
 
